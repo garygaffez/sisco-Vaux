@@ -1,0 +1,83 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image:url(/assets/img/groupe_enfants.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.logoSisco {
+    display: block;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.middleCenter {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.picture {
+    width: 100%;
+    height: 200px;
+}
+
+.pinceaux {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.h-10 {
+    height: 8%;
+}
+
+.h-90 {
+    height: 80%;
+}
+.carousel .carousel-item {
+    height: 200px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    height:200px;
+}
+.backImage {
+    width: 100%;
+    background-image:url(/assets/img/pinceaux.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    background-attachment: fixed;
+}
+
+.w-33 {
+    width: 34%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.title {
+    border-bottom: 1px solid black;
+
+}
